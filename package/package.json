@@ -1,6 +1,6 @@
 {
   "name": "@izanamidev/gitnode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Revolutionize Your GitHub Workflow with Seamless Remote Control",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/IzanamiiDevv/GitNode#readme",
   "dependencies": {
-    "child_process": "^1.0.2"
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security"
   }
 }
