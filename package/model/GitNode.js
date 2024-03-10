@@ -15,12 +15,8 @@ function checkGit() {
     return isGitPresent;
   }
 
-function GitNode(){
-
-    return {
-        gitCheck:checkGit
-
-    }
+class GitNode {
+    
 }
 
 module.exports = GitNode;
