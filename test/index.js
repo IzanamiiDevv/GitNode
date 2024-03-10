@@ -1,3 +1,3 @@
 const GitNode = require('@izanamidev/gitnode');
 
-console.log(GitNode().gitCheck("mkd"));
+console.log(GitNode().gitCheck());

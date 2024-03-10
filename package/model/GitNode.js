@@ -8,17 +8,17 @@ function runCommand(command){
     });
 }
 
+function checkGit() {
+    const files = fs.readdirSync('./');
+    const isGitPresent = files.includes('.git');
+  
+    return isGitPresent;
+  }
+
 function GitNode(){
 
     return {
-        gitCheck: function(cmd){
-            try {
-                runCommand(cmd);
-                return true
-            } catch (error) {
-                return false
-            }
-        },
+        gitCheck:checkGit
 
     }
 }
