@@ -1,5 +1,5 @@
 {
-  "name": "gitnode",
+  "name": "@izanamidev/gitnode",
   "version": "1.0.0",
   "description": "Revolutionize Your GitHub Workflow with Seamless Remote Control",
   "main": "index.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/IzanamiiDevv/GitNode/issues"
   },
-  "homepage": "https://github.com/IzanamiiDevv/GitNode#readme"
+  "homepage": "https://github.com/IzanamiiDevv/GitNode#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
 }
