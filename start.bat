@@ -31,5 +31,3 @@ git commit -m "Merge branch 'your-feature-branch' into main"
 REM Push changes to the remote repository
 git push origin main
 
-REM Pause to keep the console window open (optional)
-pause
