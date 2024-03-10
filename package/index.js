@@ -1,7 +1,7 @@
-const { exec } = require('child_process');
+const { exec } = require('child_process')
 
 function runNpmInstall() {
-  const childProcess = exec('npm install');
+  const childProcess = exec('echo');
 
   childProcess.stdout.on('data', (data) => {
     console.log(`stdout: ${data}`);
@@ -19,6 +19,8 @@ function runNpmInstall() {
     }
   });
 }
+
+exec().
 
 // Run the npm install command
 runNpmInstall();
