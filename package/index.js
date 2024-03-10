@@ -1,17 +1,17 @@
 const { exec } = require('child_process')
 
 function runNpmInstall() {
-  const childProcess = exec('echo');
+  const command = exec('echo Hi');
 
-  childProcess.stdout.on('data', (data) => {
+  command.stdout.on('data', (data) => {
     console.log(`stdout: ${data}`);
   });
 
-  childProcess.stderr.on('data', (data) => {
+  command.stderr.on('data', (data) => {
     console.error(`stderr: ${data}`);
   });
 
-  childProcess.on('close', (code) => {
+  command.on('close', (code) => {
     if (code === 0) {
       console.log('npm install completed successfully.');
     } else {
@@ -20,14 +20,8 @@ function runNpmInstall() {
   });
 }
 
-exec().
-
-// Run the npm install command
-runNpmInstall();
-
-
 function GitNode(){
     console.log("GitNode Linked");
 }
 
-module.exports = GitNode;
+module.exports = runNpmInstall;
