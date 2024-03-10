@@ -1,17 +1,25 @@
 const { exec } = require('child_process');
 const fs = require('fs');
 
-class GitNode {
+function runCommand(command){
+    exec(command,(err,res)=>{
+        if(err){throw new Error("Error Running Command")}
+        console.log("Command Run Sucessfully")
+    });
+}
 
-    runCommand(command){
-        exec(command,(err,res)=>{
-            if(err){console.error(err)}
-            console.log("Command Run Sucessfully")
-        });
-    }
+function GitNode(){
 
-    static onLoad(){
-        runCommand("");
+    return {
+        gitCheck: function(cmd){
+            try {
+                runCommand(cmd);
+                return true
+            } catch (error) {
+                return false
+            }
+        },
+
     }
 }
 
