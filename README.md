@@ -2,6 +2,6 @@
 
 
 ## Installation
-```shell
+```bash
 npm install @izanamidev/gitnode
 ```
