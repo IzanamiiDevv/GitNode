@@ -26,4 +26,5 @@ GitNode is a Node.js module designed to streamline the interaction with GitHub b
 
 Simplify your GitHub interactions with GitNode—where Git meets Node.js seamlessly.
 
+## Tools Used
 <img src="https://skillicons.dev/icons?i=npm,git,nodejs,javascript" />
