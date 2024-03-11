@@ -1,16 +1,5 @@
 # GitNode
-
-
-## Installation
-```bash
-npm install @izanamidev/gitnode
-```
-
-Certainly! Here's a suggested description for your "gitnode" module:
-
----
-
-**GitNode: Remote GitHub Control in Node.js**
+**Remote GitHub Control in Node.js**
 
 GitNode is a Node.js module designed to streamline the interaction with GitHub by transforming Git CLI commands into JavaScript functions. This module empowers developers to seamlessly integrate Git operations into their Node.js applications, providing a convenient and efficient way to manage repositories, branches, commits, and more.
 
