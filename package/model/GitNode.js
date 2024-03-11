@@ -1,12 +1,9 @@
 const { exec } = require('child_process');
 const fs = require('fs');
 
-function runCommand(command) {
+function runCommand(command, callback = ()=>{}) {
   exec(command, (err, res) => {
-    if (err) {
-      throw new Error("Error Running Command");
-    }
-    console.log(res)
+    callback(err,res);
   });
 }
 
@@ -40,6 +37,25 @@ function gitnode() {
       `;
 
       runCommand(autoCommitScript);
+    },
+
+    status: function(callback){
+      runCommand('git status',callback);
+    },
+    add: function(path,callback){
+      runCommand(`git add ${path}`,callback);
+    },
+    commit: function(message,callback){
+      runCommand(`git commit -m "${message}"`,callback);
+    },
+    checkout: function(branch,callback){
+      runCommand(`git checkout ${branch}`,callback);
+    },
+    pullOrigin: function(branch,callback){
+      runCommand(`git pull origin ${branch}`,callback);
+    },
+    pushOrigin: function(branch,callback){
+      runCommand(`git push origin ${branch}`,callback);
     }
   };
 }
