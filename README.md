@@ -4,7 +4,6 @@
 
 
 
-
 # GitNode
 **Remote GitHub Control in Node.js**
 
