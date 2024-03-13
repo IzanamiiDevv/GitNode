@@ -41,5 +41,48 @@ git.status((err,res)=>{
 });
 ```
 
+## Documentaion
+### git.status();
+Show the working tree status<br>
+**Syntax:**
+```javascript
+git.status(callback(error,resources));
+```
+
+### git.add();
+Add file contents to the index<br>
+**Syntax:**
+```javascript
+git.add(path,callback(error,resources));
+```
+
+### git.add();
+Add file contents to the index<br>
+**Syntax:**
+```javascript
+git.add(path,callback(error,resources));
+```
+
+### git.add();
+Add file contents to the index<br>
+**Syntax:**
+```javascript
+git.add(path,callback(error,resources));
+```
+
+### git.add();
+Add file contents to the index<br>
+**Syntax:**
+```javascript
+git.add(path,callback(error,resources));
+```
+
+### git.add();
+Add file contents to the index<br>
+**Syntax:**
+```javascript
+git.add(path,callback(error,resources));
+```
+
 ## Tools Used
 <img src="https://skillicons.dev/icons?i=npm,git,nodejs,javascript" />
