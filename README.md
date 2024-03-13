@@ -56,28 +56,28 @@ Add file contents to the index<br>
 git.add(path,callback(error,resources));
 ```
 
-### git.add();
+### git.commit();
 Add file contents to the index<br>
 **Syntax:**
 ```javascript
 git.add(path,callback(error,resources));
 ```
 
-### git.add();
+### git.checkout();
 Add file contents to the index<br>
 **Syntax:**
 ```javascript
 git.add(path,callback(error,resources));
 ```
 
-### git.add();
+### git.pullOrigin();
 Add file contents to the index<br>
 **Syntax:**
 ```javascript
 git.add(path,callback(error,resources));
 ```
 
-### git.add();
+### git.pushOrigin();
 Add file contents to the index<br>
 **Syntax:**
 ```javascript
