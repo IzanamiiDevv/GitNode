@@ -85,4 +85,4 @@ git.add(path,callback(error,resources));
 ```
 
 ## Tools Used
-<img src="https://skillicons.dev/icons?i=npm,git,nodejs,javascript,typescript" />
+<img src="https://skillicons.dev/icons?i=npm,git,nodejs,javascript" />
