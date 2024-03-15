@@ -1,6 +1,6 @@
 {
   "name": "@izanamidev/gitnode",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Revolutionize Your GitHub Workflow with Seamless Remote Control",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
