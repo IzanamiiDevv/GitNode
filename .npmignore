@@ -5,4 +5,4 @@ content
 .env
 
 tsconfig.json
-tsup.config.json
+tsup.config.ts
