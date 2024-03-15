@@ -21,21 +21,50 @@ function gitnode() {
   }
 
   return {
+    /**
+     * 
+     * @param {Function} callback (error,resolve)=>{};
+     */
     status: function(callback){
       runCommand('git status',callback);
     },
+    /**
+     * 
+     * @param {string} path 
+     * @param {Function} callback
+     */
     add: function(path,callback){
       runCommand(`git add ${path}`,callback);
     },
+    /**
+     * 
+     * @param {string} message 
+     * @param {Function} callback 
+     */
     commit: function(message,callback){
       runCommand(`git commit -m "${message}"`,callback);
     },
+    /**
+     * 
+     * @param {string} branch 
+     * @param {Function} callback 
+     */
     checkout: function(branch,callback){
       runCommand(`git checkout ${branch}`,callback);
     },
+    /**
+     * 
+     * @param {string} branch 
+     * @param {Function} callback 
+     */
     pullOrigin: function(branch,callback){
       runCommand(`git pull origin ${branch}`,callback);
     },
+    /**
+     * 
+     * @param {string} branch 
+     * @param {Function} callback 
+     */
     pushOrigin: function(branch,callback){
       runCommand(`git push origin ${branch}`,callback);
     }
