@@ -1,12 +1,10 @@
 {
   "name": "@izanamidev/gitnode",
-  "version": "1.0.8",
+  "version": "1.2.6",
   "description": "Revolutionize Your GitHub Workflow with Seamless Remote Control",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "main": "index.js",
   "scripts": {
-    "build": "tsup"
+    "build": ""
   },
   "repository": {
     "type": "git",
@@ -24,8 +22,8 @@
     "url": "https://github.com/IzanamiiDevv/GitNode/issues"
   },
   "homepage": "https://github.com/IzanamiiDevv/",
-  "devDependencies": {
-    "tsup": "^8.0.2",
-    "typescript": "^5.4.2"
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security"
   }
 }
